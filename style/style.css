@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(120deg,rgba(68, 54, 65, 0.466), rgba(169, 221, 235, 0.295)),url("../images/car.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 4%;
+}
+nav h3{
+    font-size: 2.2rem;
+    color: #fff;
+    text-shadow: 3px 3px 10px rgb(255, 0, 119);
+}
+nav h3 span{
+    color: #fff;
+    background: crimson;
+    padding: 4px;
+}
+nav .nav_links{
+    flex: 1;
+    text-align: right;
+}
+nav .nav_links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+nav .nav_links ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+nav .nav_links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: crimson;
+    margin: auto;
+    display: block;
+}
+nav .nav_links ul li:hover::after{
+    transition: all .5s ease-in-out;
+    width: 100%;
+}
+.header .text_book{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.header .text_book{
+    padding: 10px;
+}
+.header .text_book h1{
+    font-size: 2.9rem;
+    padding: 0px 0 20px 0;
+}
+.header .text_book h1 span{
+    color: #fff;
+    background: crimson;
+    padding: 4px;
+    text-shadow: 3px 3px 5px rgb(236, 169, 199);
+}
+.header .text_book p{
+    font-size: .8rem;
+    line-height: 1.4;
+}
+.header .text_book button{
+    margin: 15px 0 0 0;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+    border: 4px solid crimson;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.header .text_book button:hover{
+    transition: all .2s ease-in-out;
+    background: crimson;
+    box-shadow: 5px 5px 25px rgb(255, 0, 119);
+}
+nav .fa{
+    display: none;
+}
+
+.courses{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.courses h1{
+    font-size: 2rem;
+    line-height: 2;
+}
+.courses p{
+    font-weight: 400;
+    line-height: 1.4;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.row_coloum{
+    flex-basis: 31%;
+    background: #eeb4b48c;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 2%;
+}
+.row_coloum h1{
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+.row_coloum p{
+    margin-top: 10px;
+    padding: 5px;
+    line-height: 1.4;
+}
+.row_coloum:hover{
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,.4);
+    cursor: pointer;
+}
+
+.campus{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.campus h1 {
+    font-size: 2rem;
+    line-height: 2;
+}
+.campus p {
+    font-weight: 400;
+    line-height: 1.2;
+}
+.coloum_img{
+    flex-basis: 28%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.coloum_img img{
+    width: 360px;
+    height: 420px;
+    border-radius: 10px;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease-in-out;
+}
+.layer:hover{
+    background: rgba(236, 169, 199, 0.432);
+}
+.layer h3{
+    width: 100%;
+    font-size: 26px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+.facilities{
+    width: 80%;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+}
+.facilities h1{
+    font-size: 2rem;
+    line-height: 2;
+}
+.facilities p{
+    font-weight: 400;
+    line-height: 1.2;
+}
+.facitilies_col{
+    flex-basis: 31%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.facitilies_col img{
+   width: 360px;
+   height: 420px;
+   border-radius: 10px;
+}
+.facitilies_col h3{
+    margin-top: 10px;
+    text-align: left;
+    padding: 5px;
+}
+.facitilies_col p{
+    line-height: 1.3;
+    width: 96%;
+}

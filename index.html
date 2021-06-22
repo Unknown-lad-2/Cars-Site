@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="shortcut icon" href="https://www.clipartmax.com/png/middle/144-1444028_electric-car-logo-png.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <title>AM Cards Store</title>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <h3 class="logo">AM <span>Motors</span></h3>
+            <div class="nav_links" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="closelink()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="openlink()"></i>
+        </nav>
+        <div class="text_book">
+            <h1>We are AM <span>Motors</span>, at your service</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, facilis ea odit harum, 
+            ducimus fugit provident<br> liberoarchitecto iure necessitatibus iste cumque molestias quas!</p>
+            <button>Explore More</button>
+        </div>
+    </section>
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="row_coloum">
+                <h1>Intermidate</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam ipsam ad, in magnam voluptate minus blanditiis repudiandae optio ea. Repudiandae autem debitis esse possimus.</p>
+            </div>
+            <div class="row_coloum">
+                <h1>Degree</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam ipsam ad, in magnam voluptate minus blanditiis repudiandae optio ea. Repudiandae autem debitis esse possimus.</p>
+            </div>
+            <div class="row_coloum">
+                <h1>International</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam ipsam ad, in magnam voluptate minus blanditiis repudiandae optio ea. Repudiandae autem debitis esse possimus.</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="coloum_img">
+                <img src="./images/beach-418742_1920.jpg" alt="beach-img">
+                <div class="layer">
+                    <h3>Austrila</h3>
+                </div>
+            </div>
+            <div class="coloum_img">
+                <img src="./images/boardwalk-569314_1920.jpg" alt="beach-img">
+                <div class="layer">
+                    <h3>GOA</h3>
+                </div>
+            </div>
+            <div class="coloum_img">
+                <img src="./images/beach-5958718_1920.jpg" alt="beach-img">
+                <div class="layer">
+                    <h3>BERLIN</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Faclities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facitilies_col">
+                <img src="./images/beach-418742_1920.jpg" alt="">
+                <h3>World Class Lab</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequatur commodi unde iusto nihil sequi corrupti doloremque.</p>
+            </div>
+            <div class="facitilies_col">
+                <img src="./images/beach-418742_1920.jpg" alt="">
+                <h3>World Class Lab</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequatur commodi unde iusto nihil sequi corrupti doloremque.</p>
+            </div>
+            <div class="facitilies_col">
+                <img src="./images/beach-418742_1920.jpg" alt="">
+                <h3>World Class Lab</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequatur commodi unde iusto nihil sequi corrupti doloremque.</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function closelink(){
+            navlinks.style.right="-200px";
+        }
+        function openlink(){
+            navlinks.style.right="0";
+        }
+
+        var open = document.getElementById("open");
+    </script>
+</body>
+</html>
