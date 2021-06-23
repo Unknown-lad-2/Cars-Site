@@ -48,6 +48,9 @@
     .campus p {
         margin: 20px 0 20px 0;
     }
+    .enroll h1 {
+        font-size: 1.8rem;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -77,6 +80,24 @@
         padding: 30px;
     }
 }
+@media screen and (max-width: 520px){
+    .testimonial_col {
+        display: block;
+    }
+    .testimonial {
+        padding-top: 50px;
+    }
+    .enroll h1 {
+        font-size: 1rem;
+    }
+    .enroll button {
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 1rem;
+        cursor: pointer;
+        border: none;
+    }
+}
 @media screen and (max-width: 420px) {
     .header .text_book {
         padding: 10px;
@@ -89,13 +110,14 @@
         font-size: .9rem;
         padding: 10px;
     }
-    .facitilies_col img {
-        width: 320px;
+    .facitilies_col{
+        margin-bottom: 50px;
+    }
+    .facitilies_col h3 {
+        margin-top: 20px;
+    }
+    .facitilies_col p {
+        margin-bottom: 29px;
     }
 }
 
-@media screen and (max-width: 340px){
-    .facitilies_col img {
-        width: 300px;
-    }
-}

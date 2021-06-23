@@ -97,20 +97,20 @@ nav .nav_links ul li:hover::after{
 nav .fa{
     display: none;
 }
-
+.heading h1 {
+    font-size: 2rem;
+    line-height: 2;
+}
+.heading p {
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
 .courses{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
-}
-.courses h1{
-    font-size: 2rem;
-    line-height: 2;
-}
-.courses p{
-    font-weight: 400;
-    line-height: 1.4;
 }
 .row{
     display: flex;
@@ -145,14 +145,6 @@ nav .fa{
     padding-top: 50px;
     text-align: center;
 }
-.campus h1 {
-    font-size: 2rem;
-    line-height: 2;
-}
-.campus p {
-    font-weight: 400;
-    line-height: 1.2;
-}
 .coloum_img{
     flex-basis: 28%;
     border-radius: 10px;
@@ -175,7 +167,7 @@ nav .fa{
     transition: all .5s ease-in-out;
 }
 .layer:hover{
-    background: rgba(236, 169, 199, 0.432);
+    background: #eca9c76e;
 }
 .layer h3{
     width: 100%;
@@ -200,24 +192,15 @@ nav .fa{
     padding-top: 50px;
     margin: auto;
 }
-.facilities h1{
-    font-size: 2rem;
-    line-height: 2;
-}
-.facilities p{
-    font-weight: 400;
-    line-height: 1.2;
-}
 .facitilies_col{
-    flex-basis: 31%;
-    margin-bottom: 30px;
-    border-radius: 10px;
+    flex-basis: 28%;
+    margin-bottom: 20px;
     position: relative;
+    height: 620px;
 }
 .facitilies_col img{
-   width: 360px;
-   height: 420px;
-   border-radius: 10px;
+   width: 100%;
+   height: 70%;
 }
 .facitilies_col h3{
     margin-top: 10px;
@@ -226,5 +209,121 @@ nav .fa{
 }
 .facitilies_col p{
     line-height: 1.3;
-    width: 96%;
+    text-align: left;
+}
+
+.testimonial{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+}
+.testimonial_col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #eca9c76e;
+    padding: 25px;
+    display: flex;
+    /* animation: slider 40s infinite linear; */
+}
+.testimonial_col img{
+    height: 80px;
+    margin-left: 5px;
+    margin-right: 25px;
+    border-radius: 100px;
+}
+.testimonial_col p{
+    font-size: .9rem;
+    padding-top: 10px;
+    color: rgb(124, 114, 111);
+}
+.testimonial_col h3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.testimonial_col i{
+    color: crimson;
+}
+
+.cat{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: 360px;
+    background-image: linear-gradient(120deg,rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.623)),url(https://3back.com/app/uploads/2017/07/Team-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.enroll h1{
+    font-size: 2.8rem;
+}
+.enroll button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+}
+button:focus{
+    outline: none;
+}
+.enroll button:hover{
+    transition: all .3s ease-in-out;
+    color: #fff;
+    background: crimson;
+}
+
+.abous_us {
+    width: 80%;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+}
+.abous_us h1 {
+    font-size: 2rem;
+    margin: 20px 0 20px 0;
+}
+.abous_us p {
+    color: rgb(90, 83, 83);
+    margin-bottom: 30px;
+}
+
+.footer{
+    text-align: center;
+    height: 50px;
+    background: #eca9c76e;
+}
+.footer i{
+    background: crimson;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin: 8px;
+    width: 40px;
+    font-size: 1.3rem;
+}
+.footer i:first-child:hover{
+    transition: all .3s ease-in-out;
+    color: rgb(0, 140, 255);
+}
+.footer i:nth-child(2):hover {
+    transition: all .3s ease-in-out;
+    color: rgb(0, 140, 255);
+}
+.footer i:nth-child(3):hover {
+    transition: all .3s ease-in-out;
+    color: rgb(0, 140, 255);
+}
+.footer i:last-child:hover {
+    transition: all .3s ease-in-out;
+    color: rgb(255, 0, 212);
 }
